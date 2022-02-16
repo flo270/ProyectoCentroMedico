@@ -1,55 +1,101 @@
-.fondo{
-  background-color: rgb(202,240,248);
+.fondo {
+    background-color: rgb(202, 240, 248);
 }
-.button{
-  background-color: rgb(0,180,216);
-  color: rgb(3,4,94)
+
+.button {
+    background-color: rgb(0, 180, 216);
+    color: rgb(3, 4, 94)
 }
-.bg-div{
-  background-color: rgb(202,240,248);
+
+.bg-div {
+    background-color: rgb(202, 240, 248);
 }
+
+header {
+    background-color: #03045E;
+}
+
+footer {
+    background-color: #03045E;
+}
+
+.logowebp {
+    width: 100px;
+}
+
+@media(max-width:990px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+}
+
+@media (min-width: 300px) {
+    .logo {
+        width: 50px;
+    }
+}
+
+@media (min-width: 576px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media (max-width: 991px) {
+    .menunocelu {
+        display: none;
+    }
+}
+
+
 /* animacion */
+
 .at-item {
-  animation-name: scale-up-center;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
 }
+
 .at-item1 {
-  animation-name: scale-up-center;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
 }
+
 .at-item2 {
-  animation-name: scale-up-center;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-delay: 4s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
 }
+
 .at-item3 {
-  animation-name: scale-up-center;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-delay: 6s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: none;
+    animation-name: scale-up-center;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
 }
+
 @keyframes scale-up-center {
-  0%{
-    transform: scale(.2);
-  }
-  100%{
-    transform: scale(1);
-  }
+    0% {
+        transform: scale(.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
