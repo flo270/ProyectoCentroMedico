@@ -1,7 +1,7 @@
 .fondo {
     background-color: rgb(202, 240, 248);
-    Margin:3px;
-    Padding:3px;
+    Margin: 3px;
+    Padding: 3px;
 }
 
 .button {
@@ -15,6 +15,7 @@
 
 header {
     background-color: #03045E;
+    z-index: 10000;
 }
 
 footer {
