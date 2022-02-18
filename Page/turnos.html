@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../styles/turnos.css">
+    <title>Turnos</title>
+</head>
+
+<body class="m-0 p-0">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class=" container-fluid justify-content-xxl-around">
+                <div>
+                    <a href=""><img class="logo ms-md-5" src="../img/logo.webp" alt="logo centro medico" title="Medical Center"></a>
+                </div>
+                <div>
+                    <button class="navbar-toggler bg-light" type="button " data-bs-toggle="collapse" data-bs-target="#modalcard" aria-controls="navbarNav " aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="modalcard">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link active text-light ms-lg-4 ms-xxl-5" aria-current="page " href="# ">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-light ms-lg-4 ms-xxl-5" href="# ">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-light ms-lg-4 ms-xxl-5" href="# ">Especialidades</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-light ms-lg-4 ms-xxl-5" href="# ">Turnos</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-light ms-lg-4 me-lg-4 ms-xxl-5 me-xxl-5" href="# ">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container-fluid conta m-0 p-0">
+            <img class="imgprincipio img-fluid w-100" src="../img/img principio/img.turno.jpg" alt="imagen turnos" title="turnos">
+        </section>
+        <section class="container-fluid py-5">
+            <div class="d-flex justify-content-center">
+                <form class="d-flex col-12 col-sm-10 col-md-9 col-lg-8 col-xl-5">
+                    <input class="form-control rounded-pill me-2" type="search" placeholder="Buscar Por Especialidades" aria-label="Search">
+                    <button class="btn" type="submit">🔍</button>
+                </form>
+            </div>
+        </section>
+        <section class="container rounded col-12 col-6 col-lg-8 col-xl-6 secturnos">
+            <div class="display-6 d-flex justify-content-end">
+                🚑
+            </div>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label"></label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom02" class="form-label"></label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
+                </div>
+                <div class="col-6">
+                    <label for="exampleInputEmail1" class="form-label"></label>
+                    <input type="email" class="form-control" placeholder="Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom01" class="form-label"></label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Numero celular" required>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleccionar Especialidad</option>
+                        <option value="Cardiologia">Cardiologia</option>
+                        <option value="Pediatria">Pediatria</option>
+                        <option value="Diagnostico por Imagenes">Diagnostico por Imagenes</option>
+                </select>
+                </div>
+                <div class="col-md-6">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleccionar Médico</option>
+                        <option value="Dr. Fernando Feilx">Dr. Fernando Feilx</option>
+                        <option value="Dra. Karina krull">Dra. Karina krull</option>
+                        <option value="Dr. Gonzalo Gómez">Dr. Gonzalo Gómez</option>
+                </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="fecha">Seleccionar Fecha 📅 </label>
+                    <input type="date" name="fecha" id="fecha" />
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Confirmar
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Turnos</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="alert alert-success" role="alert">
+                                            ¡Tu turno fue reservado con éxito! </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">salir</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="container-fluid d-flex display-4">
+                <a class="" href="#">🡸</a>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid">
+        <div class="menunocelu ">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid justify-content-xxl-around">
+                    <div>
+                        <a href=""><img class="logo ms-md-5" src="../img/logo.webp" alt="logo centro medico" title="Medical Center" width="150px"></a>
+                    </div>
+                    <div>
+                        <button class="navbar-toggler" type="button " data-bs-toggle="collapse " data-bs-target="#navbarNav" aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page " href="# ">Home</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link text-light ms-lg-4" href="# ">Quienes Somos</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link text-light ms-lg-4" href="# ">Especialidades</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link text-light ms-lg-4" href="# ">Turnos</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link text-light ms-lg-4" href="# ">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row footerb p-5 ">
+            <div class="col-md-3 ">
+                <div class="row justify-content-center ">
+                    <div class="col-4 my-2 col-md-3 ">
+                        <a href=" ">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="col-4 my-2 col-md-3 ">
+                        <a href=" ">
+                            <i class="bi bi-instagram text-light"></i>
+                        </a>
+                    </div>
+                    <div class="col-4 my-2 col-md-3 ">
+                        <a href=" ">
+                            <i class="bi bi-youtube text-danger"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <h5 class="text-light">&copyDerechos reservados</h5>
+                <p class="text-primary">nuestros servicios</p>
+                <p class="text-light"> Consultorios Externos <br> Diagnostico por Imagenes <br> Medicina Laboral <br> Internación Domiciliaria <br> Prácticas Ambulatorias</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <p class="text-light">0-800-566-7275 25 de Mayo 3678, Santa Fe, Argentina contacto@scentromedico.com.ar
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+</body>
+
+</html>

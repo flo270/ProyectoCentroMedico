@@ -1,0 +1,57 @@
+header {
+    background-color: #03045E;
+}
+
+main {
+    background-color: #CAF0F8;
+}
+
+.logowebp {
+    width: 100px;
+}
+
+.imgprincipio {
+    margin-top: 65px;
+}
+
+.secturnos {
+    background-color: #90E0EF;
+}
+
+footer {
+    background-color: #03045E;
+}
+
+@media (min-width: 300px) {
+    .logo {
+        width: 50px;
+    }
+}
+
+@media (min-width: 576px) {
+    .imgprincipio {
+        margin-top: 117px;
+    }
+    .logo {
+        width: 100px;
+    }
+}
+
+@media(max-width:990px) {
+    header {
+        position: fixed;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .menunocelu {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .imgprincipio {
+        margin-top: 0px;
+    }
+}
