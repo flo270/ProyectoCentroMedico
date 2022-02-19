@@ -102,3 +102,129 @@ footer {
         transform: scale(1);
     }
 }
+/* estilos index */
+a{
+    text-decoration: none;
+    color: white;
+}
+.carousel-img{
+    height: 80vh;
+}
+.contenedor{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(144,224,239); 
+}
+.contenedor h2, p{
+    color: white;
+}
+.text-presentacion{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.btn-color{
+    background-color: #00B4D8;
+    margin: 2px 2px;
+    color: white;
+}
+.cards-img{
+    height: 30vh;
+    width: 550px;
+}
+.font{
+    font-family:"Reenie Beanie";
+    font-size:100%;
+    font-weight:normal;
+    color: #000;
+  }
+.nota-adhesiva  ul,li{
+    list-style:none;
+  }
+.nota-adhesiva  ul{
+    overflow:hidden;
+    padding:3em;
+  }
+.nota-adhesiva  ul li a{
+    text-decoration:none;
+    color:#000;
+    background:#ffc;
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    -moz-transition:-moz-transform .15s linear;
+    -o-transition:-o-transform .15s linear;
+    -webkit-transition:-webkit-transform .15s linear;
+  }
+.nota-adhesiva  ul li{
+    margin:1em;
+    float:left;
+  }
+.nota-adhesiva  ul li h2{
+    font-size:140%;
+    font-weight:bold;
+    padding-bottom:10px;
+  }
+.nota-adhesiva  ul li p{
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:180%;
+  }
+.nota-adhesiva  ul li a{
+    -webkit-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+    -moz-transform:rotate(-6deg);
+  }
+.nota-adhesiva  ul li:nth-child(even) a{
+    -o-transform:rotate(4deg);
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    position:relative;
+    top:5px;
+    background:#cfc;
+  }
+.nota-adhesiva  ul li:nth-child(3n) a{
+    -o-transform:rotate(-3deg);
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    position:relative;
+    top:-5px;
+    background:#ccf;
+  }
+.nota-adhesiva  ul li:nth-child(5n) a{
+    -o-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -moz-transform:rotate(5deg);
+    position:relative;
+    top:-10px;
+  }
+.nota-adhesiva  ul li a:hover,ul li a:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position:relative;
+    z-index:5;
+  }
+.nota-adhesiva  ol{text-align:center;}
+.nota-adhesiva  ol li{display:inline;padding-right:1em;}
+.nota-adhesiva  ol li a{color:#fff;}
+
+/* estilos quienes somos */
+.barra-de-navegacion{
+    background-color: rgb(0, 180, 216);
+}
+.barra-de-navegacion a{
+    text-decoration: none;
+    color: #000;
+}
+.card-color{
+    background-color: rgb(0, 180, 216);
+}
+.card-body{
+    height: 40vh;
+}
