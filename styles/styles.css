@@ -3,18 +3,18 @@
     Margin: 3px;
     Padding: 3px;
     color: black;
-} 
-@media (min-width:300px) {
-    .tamaño{
-      font-size: 10px; 
-  } 
- 
 }
+
+@media (min-width:300px) {
+    .tamaño {
+        font-size: 10px;
+    }
+}
+
 @media (min-width:440px) {
-    .tamaño{
-      font-size: 16px;
-  } 
-  
+    .tamaño {
+        font-size: 16px;
+    }
 }
 
 .button {
@@ -115,129 +115,217 @@ footer {
         transform: scale(1);
     }
 }
+
+
 /* estilos index */
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-.carousel-img{
+
+.carousel-img {
     height: 80vh;
 }
-.contenedor{
+
+.contenedor {
     margin-top: 10px;
     text-align: center;
-    background-color: rgb(144,224,239); 
+    background-color: rgb(144, 224, 239);
 }
-.contenedor h2, p{
+
+.contenedor h2,
+p {
     color: white;
 }
-.text-presentacion{
+
+.text-presentacion {
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }
-.btn-color{
+
+.btn-color {
     background-color: #00B4D8;
     margin: 2px 2px;
     color: white;
 }
-.cards-img{
+
+.cards-img {
     height: 30vh;
     width: 550px;
 }
-.font{
-    font-family:"Reenie Beanie";
-    font-size:100%;
-    font-weight:normal;
+
+.font {
+    font-family: "Reenie Beanie";
+    font-size: 100%;
+    font-weight: normal;
     color: #000;
-  }
-.nota-adhesiva  ul,li{
-    list-style:none;
-  }
-.nota-adhesiva  ul{
-    overflow:hidden;
-    padding:3em;
-  }
-.nota-adhesiva  ul li a{
-    text-decoration:none;
-    color:#000;
-    background:#ffc;
-    display:block;
-    height:10em;
-    width:10em;
-    padding:1em;
-    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
-    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-    -moz-transition:-moz-transform .15s linear;
-    -o-transition:-o-transform .15s linear;
-    -webkit-transition:-webkit-transform .15s linear;
-  }
-.nota-adhesiva  ul li{
-    margin:1em;
-    float:left;
-  }
-.nota-adhesiva  ul li h2{
-    font-size:140%;
-    font-weight:bold;
-    padding-bottom:10px;
-  }
-.nota-adhesiva  ul li p{
-    font-family:"Reenie Beanie",arial,sans-serif;
-    font-size:180%;
-  }
-.nota-adhesiva  ul li a{
+}
+
+.nota-adhesiva ul,
+li {
+    list-style: none;
+}
+
+.nota-adhesiva ul {
+    overflow: hidden;
+    padding: 3em;
+}
+
+.nota-adhesiva ul li a {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    height: 10em;
+    width: 10em;
+    padding: 1em;
+    -moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
+    -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+    -moz-transition: -moz-transform .15s linear;
+    -o-transition: -o-transform .15s linear;
+    -webkit-transition: -webkit-transform .15s linear;
+}
+
+.nota-adhesiva ul li {
+    margin: 1em;
+    float: left;
+}
+
+.nota-adhesiva ul li h2 {
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.nota-adhesiva ul li p {
+    font-family: "Reenie Beanie", arial, sans-serif;
+    font-size: 180%;
+}
+
+.nota-adhesiva ul li a {
     -webkit-transform: rotate(-6deg);
     -o-transform: rotate(-6deg);
-    -moz-transform:rotate(-6deg);
-  }
-.nota-adhesiva  ul li:nth-child(even) a{
-    -o-transform:rotate(4deg);
-    -webkit-transform:rotate(4deg);
-    -moz-transform:rotate(4deg);
-    position:relative;
-    top:5px;
-    background:#cfc;
-  }
-.nota-adhesiva  ul li:nth-child(3n) a{
-    -o-transform:rotate(-3deg);
-    -webkit-transform:rotate(-3deg);
-    -moz-transform:rotate(-3deg);
-    position:relative;
-    top:-5px;
-    background:#ccf;
-  }
-.nota-adhesiva  ul li:nth-child(5n) a{
-    -o-transform:rotate(5deg);
-    -webkit-transform:rotate(5deg);
-    -moz-transform:rotate(5deg);
-    position:relative;
-    top:-10px;
-  }
-.nota-adhesiva  ul li a:hover,ul li a:focus{
-    box-shadow:10px 10px 7px rgba(0,0,0,.7);
-    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
-    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    -moz-transform: rotate(-6deg);
+}
+
+.nota-adhesiva ul li:nth-child(even) a {
+    -o-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background: #cfc;
+}
+
+.nota-adhesiva ul li:nth-child(3n) a {
+    -o-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+    background: #ccf;
+}
+
+.nota-adhesiva ul li:nth-child(5n) a {
+    -o-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    position: relative;
+    top: -10px;
+}
+
+.nota-adhesiva ul li a:hover,
+ul li a:focus {
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
     -webkit-transform: scale(1.25);
     -moz-transform: scale(1.25);
     -o-transform: scale(1.25);
-    position:relative;
-    z-index:5;
-  }
-.nota-adhesiva  ol{text-align:center;}
-.nota-adhesiva  ol li{display:inline;padding-right:1em;}
-.nota-adhesiva  ol li a{color:#fff;}
+    position: relative;
+    z-index: 5;
+}
+
+.nota-adhesiva ol {
+    text-align: center;
+}
+
+.nota-adhesiva ol li {
+    display: inline;
+    padding-right: 1em;
+}
+
+.nota-adhesiva ol li a {
+    color: #fff;
+}
+
 
 /* estilos quienes somos */
-.barra-de-navegacion{
+
+.barra-de-navegacion {
     background-color: rgb(0, 180, 216);
 }
-.barra-de-navegacion a{
+
+.barra-de-navegacion a {
     text-decoration: none;
     color: #000;
 }
-.card-color{
+
+.card-color {
     background-color: rgb(0, 180, 216);
 }
-.card-body{
+
+.card-body {
     height: 40vh;
+}
+
+.logowebp {
+    width: 100px;
+}
+
+.menuforcelu {
+    display: none;
+}
+
+@media (min-width: 300px) {
+    .logo {
+        width: 50px;
+    }
+    .menuforcelu {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 576px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media(max-width:990px) {
+    /* header {
+        position: fixed;
+        width: 100%;
+    } */
+}
+
+@media (max-width: 991px) {
+    .menunocelu {
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .menuforcelu {
+        display: none;
+    }
+    .menuforcompu {
+        display: flex;
+    }
+    .logo {
+        width: 100px;
+    }
 }
